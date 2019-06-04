@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NAV */
+
+.navbar {
+  margin-top: 0;
+  background-color: #0e0e0c;
+  display: inline-block;
+  width: 100%;
+}
+
+.logo {
+  background-image: url(../img/nav_logo.png);
+  width: 190px;
+  height: 120px;
+  margin: 25px auto;
+}
+
+.navbar li {
+  text-align: center;
+  /* display: block; */
+  margin: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  width: 90%;
+  border: 1px solid white;
+  border-radius: 10px;
+}
