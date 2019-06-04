@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Bubblegum+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bubblegum+Sans|Puritan:400,700&display=swap');
 /* FONTS
+
 bubblegum:
 font-family: 'Bubblegum Sans', cursive;
+
+puritan:
+font-family: 'Puritan', sans-serif;
 */
 
 /* COLORS
@@ -14,6 +19,10 @@ Green = #3ca74f;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/background_sm.png);
 }
 
 a {
@@ -86,18 +95,20 @@ a {
   background-color: #f17722;
   text-align: center;
   font-size: 36px;
+  text-shadow: 1px 1px black;
 }
 
 .banner-container a {
   display: block;
   background-color: #f17722;
-  font-size: 22px;
-  width: 66%;
-  padding: 9px;
+  font-size: 20px;
+  width: 50%;
+  padding: 7px;
   border: 2px solid white;
   border-radius: 5px;
   margin: 0 auto;
   text-align: center;
+  box-shadow: 1px 1px 3px black;
 }
 
 .banner-container p {
@@ -109,3 +120,44 @@ a {
   font-size: 18px;
   bottom: 0;
 }
+
+.banner-visit {
+  font-family: 'Puritan', sans-serif;
+  font-weight: bold;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.main-visit {
+  width: 90%;
+  margin: 10px auto;
+  background-color: white;
+  padding: 10px;
+}
+
+.banner-visit h3 {
+  font-size: 20px;
+  color: white;
+  line-height: 50px;
+  background-image: url(../img/green_tag.png);
+  width: 180px;
+  height: 50px;
+  padding-left: 25px;
+  /* text-align: center; */
+}
+
+.banner-visit p {
+  display: block;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.banner-visit p:first-child {
+  margin-top: 20px;
+}
+
+.banner-visit p:last-child {
+  margin-bottom: 20px;
+}
+
+/* Add Button to "admittance" */
