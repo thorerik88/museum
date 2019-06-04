@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Bubblegum+Sans&display=swap');
+/* FONTS
+bubblegum:
+font-family: 'Bubblegum Sans', cursive;
+*/
+
 /* COLORS
 Orange = #f17722;
 Green = #3ca74f;
-
-
 */
 
 
@@ -10,6 +14,11 @@ Green = #3ca74f;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 /* NAV */
@@ -20,6 +29,8 @@ Green = #3ca74f;
   display: inline-block;
   width: 100%;
   border-bottom: 5px solid #f17722;
+  font-family: 'Bubblegum Sans', cursive;
+  box-shadow: 1px 1px 4px;
 }
 
 .logo {
@@ -39,7 +50,6 @@ Green = #3ca74f;
 }
 
 .navbar a {
-  text-decoration: none;
   color: white;
   display: block;
   width: 90%;
@@ -56,4 +66,46 @@ Green = #3ca74f;
 
 .navbar li:last-child {
   margin-bottom: 30px;
+}
+
+/* BANNER */
+
+.banner-container {
+  position: relative;
+  background-image: url(../img/banner_sm.jpg);
+  min-width: 100%;
+  min-height: 320px;
+  color: white;
+  font-family: 'Bubblegum Sans', cursive;
+  display: inline-block;
+}
+
+.banner-container h1 {
+  margin: 40px auto;
+  /* min-width: 100%; */
+  background-color: #f17722;
+  text-align: center;
+  font-size: 36px;
+}
+
+.banner-container a {
+  display: block;
+  background-color: #f17722;
+  font-size: 22px;
+  width: 66%;
+  padding: 9px;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.banner-container p {
+  position: absolute;
+  background: rgba(108,117,125,.8);
+  min-width: 100%;
+  text-align: center;
+  padding: 5px 10px;
+  font-size: 18px;
+  bottom: 0;
 }
