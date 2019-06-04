@@ -1,0 +1,59 @@
+/* COLORS
+Orange = #f17722;
+Green = #3ca74f;
+
+
+*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NAV */
+
+.navbar {
+  margin-top: 0;
+  background-color: #0e0e0c;
+  display: inline-block;
+  width: 100%;
+  border-bottom: 5px solid #f17722;
+}
+
+.logo {
+  background-image: url(../img/nav_logo.png);
+  width: 190px;
+  height: 120px;
+  margin: 25px auto;
+}
+
+.navbar ul {
+  display: inline-block;
+  width: 100%;
+}
+
+.navbar li {
+  text-align: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  width: 90%;
+  margin: 5px auto;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.navbar a:hover {
+  background-color: #6c757d;
+  color: black;
+}
+
+.navbar li:last-child {
+  margin-bottom: 30px;
+}
