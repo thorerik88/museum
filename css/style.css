@@ -28,7 +28,7 @@ a {
   background-color: #0e0e0c;
   display: inline-block;
   width: 100%;
-  border-bottom: 5px solid #f17722;
+  /* border-bottom: 5px solid #f17722; */
   font-family: 'Bubblegum Sans', cursive;
   box-shadow: 1px 1px 4px;
 }
