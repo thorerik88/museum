@@ -11,6 +11,7 @@ font-family: 'Puritan', sans-serif;
 /* COLORS
 Orange = #f17722;
 Green = #3ca74f;
+Black = #0e0e0c;
 */
 
 
@@ -202,4 +203,63 @@ a {
   width: 126px;
   margin: 5px 0 10px;
   box-shadow: 1px 1px 5px black;
+}
+
+/* FOOTER */
+
+footer {
+  background-image: url(../img/background_footer_sm.png);
+  /* width: 100%;
+  height: 100%; */
+  background-size:contain;
+  color: #f17722;
+  font-family: 'Bubblegum Sans', cursive;
+  font-weight: 300;
+}
+
+footer .footer-logo {
+  text-align: center;
+}
+
+footer img {
+  margin: 10px;
+}
+
+footer li {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.footer-address {
+  text-align: center;
+}
+
+.footer-address, .social {
+  color: white;
+}
+
+.social li {
+  width: 50%;
+  margin: 20px auto;
+  list-style: none;
+}
+
+.social li p {
+  display: inline;
+  position: relative;
+}
+
+.social li i {
+  background-image: url(../img/facebook.png);
+  width: 18px;
+  height: 18px;
+  background-size: cover;
+  position: absolute;
+  left: -25px;
+}
+
+.copy {
+  color: white;
+  font-family: 'Puritan', sans-serif;
+  text-align: center;
 }
