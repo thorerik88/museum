@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Bubblegum+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Bubblegum+Sans|Puritan:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bubblegum+Sans|Puritan:400,700,700i&display=swap');
 /* FONTS
 
 bubblegum:
@@ -28,6 +27,10 @@ body {
 a {
   text-decoration: none;
   color: white;
+}
+
+.bubblegum {
+  font-family: 'Bubblegum Sans', cursive;
 }
 
 /* NAV */
@@ -130,19 +133,20 @@ a {
 
 .main-visit {
   width: 90%;
-  margin: 10px auto;
+  margin: 0 auto;
   background-color: white;
   padding: 10px;
 }
 
-.banner-visit h3 {
-  font-size: 20px;
+.banner-visit h2, .news h2, .offer h2 {
+  font-size: 18px;
   color: white;
   line-height: 50px;
   background-image: url(../img/green_tag.png);
   width: 180px;
   height: 50px;
-  padding-left: 25px;
+  padding-left: 10px;
+  margin: 20px 0;
   /* text-align: center; */
 }
 
@@ -160,4 +164,42 @@ a {
   margin-bottom: 20px;
 }
 
-/* Add Button to "admittance" */
+.main-visit a {
+  text-decoration: underline;
+  color: blue;
+}
+
+/* ASIDE NEWS */
+
+.news article, .offer article {
+  font-family: 'Puritan', sans-serif;
+  max-width: 324px;
+  margin: 0 auto 30px;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 1px 1px 5px black;
+}
+
+.news img, .offer article {
+  border-radius: 5px 5px 0 0;
+}
+
+.news article h3, .offer article h3 {
+  margin: 10px;
+}
+
+.news article p, .offer article p {
+  margin: 10px;
+}
+
+.news article a, .offer article a {
+  display: inline-block;
+  background-color: #f17722;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px;
+  width: 126px;
+  margin: 5px 0 10px;
+  box-shadow: 1px 1px 5px black;
+}
