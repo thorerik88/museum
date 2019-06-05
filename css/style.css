@@ -78,7 +78,7 @@ a {
 }
 
 .navbar li:last-child {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 /* BANNER */
@@ -98,14 +98,14 @@ a {
   /* min-width: 100%; */
   background-color: #f17722;
   text-align: center;
-  font-size: 36px;
+  font-size: 2.25;
   text-shadow: 1px 1px black;
 }
 
 .banner-container a {
   display: block;
   background-color: #f17722;
-  font-size: 20px;
+  font-size: 1.25em;
   width: 50%;
   padding: 7px;
   border: 2px solid white;
@@ -121,7 +121,7 @@ a {
   min-width: 100%;
   text-align: center;
   padding: 5px 10px;
-  font-size: 18px;
+  font-size: 1.125em;
   bottom: 0;
 }
 
@@ -129,7 +129,6 @@ a {
   font-family: 'Puritan', sans-serif;
   font-weight: bold;
   width: 100%;
-  padding-top: 20px;
 }
 
 .main-visit {
@@ -140,7 +139,7 @@ a {
 }
 
 .banner-visit h2, .news h2, .explore h2 {
-  font-size: 18px;
+  font-size: 1.125em;
   color: white;
   line-height: 50px;
   background-image: url(../img/green_tag.png);
@@ -153,7 +152,7 @@ a {
 
 .banner-visit p {
   display: block;
-  font-size: 18px;
+  font-size: 1.125em;
   margin: 10px;
 }
 
@@ -238,24 +237,45 @@ footer li {
   color: white;
 }
 
+.social {
+  margin-bottom: 30px;
+}
+
 .social li {
   width: 50%;
   margin: 20px auto;
   list-style: none;
 }
 
-.social li p {
+.social li a {
+  font-size: 1.125em;
   display: inline;
   position: relative;
 }
 
-.social li i {
-  background-image: url(../img/facebook.png);
+.social li a::before{
+  content: "";
+  background-size: cover;
+  vertical-align: middle;
+  display: inline-block;
   width: 18px;
   height: 18px;
-  background-size: cover;
-  position: absolute;
-  left: -25px;
+}
+
+.facebook::before {
+  background: url(../img/facebook.png);
+}
+
+.twitter::before {
+  background: url(../img/twitter.png);
+}
+
+.instagram::before {
+  background: url(../img/instagram.png);
+}
+
+.tripadvisor::before {
+  background: url(../img/tripadvisor.png);
 }
 
 .copy {
