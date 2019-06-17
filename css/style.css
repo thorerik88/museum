@@ -191,7 +191,7 @@ a {
   color: blue;
 }
 
-/* ASIDE NEWS and SECTION OFFER */
+/* NEWS and EXPLORE */
 
 .news article, .explore article {
   font-family: 'Puritan', sans-serif;
@@ -359,10 +359,7 @@ footer li {
 
 @media screen and (min-width: 1000px) {
 
-  .container {
-    width: 1000px;
-    margin: 0 auto;
-  }
+/* NAV MENU */
 
   .navbar {
     display: flex;
@@ -402,6 +399,8 @@ footer li {
     color: white;
   }
 
+/* BANNER */
+
   .banner-container {
   margin: 0 auto;
   min-width: 1000px;
@@ -411,13 +410,13 @@ footer li {
   }
 
   .banner-welcome {
-  flex: 70%;
+  flex: 80%;
   min-width: 0;
   border-bottom: 0;
   }
 
   .banner-visit {
-  flex: 25%;
+  flex: 200px;
   display: inline-block;
   }
 
@@ -431,15 +430,20 @@ footer li {
   }
 
   .banner-welcome h1 {
-    /* width: 50%; */
+    width: 50%;
   }
 
   .banner-welcome a {
-    /* width: 250px; */
+    width: 250px;
+    margin-top: 150px;
+  }
+
+  .banner-welcome span {
+    bottom: 20%;
   }
 
   .banner-welcome p {
-    /* width: 40%; */
+    width: 40%;
   }
 
   .main-visit h2 {
@@ -449,5 +453,46 @@ footer li {
   .main-visit p {
     font-size: 16px;
     font-weight: normal;
+  }
+
+/* MAIN CONTENT */
+
+  .container {
+    width: 1000px;
+    margin: 40px auto;
+    display: flex;
+    /* text-align: center; */
+    /* display: inline-block; */
+  }
+
+  .container h2 {
+    /* display: none; */
+  }
+
+  .explore {
+    display: inline-block;
+    /* margin: 0 auto; */
+    width: 750px;
+    text-align: center;
+  }
+
+  .explore article {
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    margin: 20px;
+  }
+
+  .news article {
+    max-width: 250px;
+  }
+
+  .news {
+    /* display: inline-block; */
+    width: 250px;
+  }
+
+  .container article {
+    /* margin: 0; */
   }
 }
