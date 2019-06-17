@@ -23,6 +23,7 @@ Black = #0e0e0c;
 
 body {
   background-image: url(../img/background_sm.png);
+  background-size: cover;
 }
 
 a {
@@ -459,55 +460,30 @@ footer li {
 
   .container {
     width: 1000px;
-    padding: 40px 0;
+    background-color: white;
+    text-align: center;
     margin: 0 auto;
-    display: flex;
-    background-color: #fff;
-    /* text-align: center; */
-    /* display: inline-block; */
-  }
-
-  .container h2 {
-    /* display: none; */
   }
 
   .explore {
+    width: 600px;
     display: inline-block;
-    /* margin: 0 auto; */
-    width: 750px;
-    text-align: center;
   }
 
-  .explore h2, .news h2 {
-    /* margin-left: 105px; */
-    width: 100%;
-    background-color: #3ca74f;
-    background-image: none;
-    text-align: center;
-    /* padding-bottom: 40px; */
-  }
-
-
-
-  .explore article {
-    display: inline-block;
-    vertical-align: top;
-    width: 250px;
-    margin: 0 20px;
-  }
-
-  .news article {
-    max-width: 250px;
-    margin: 20px;
-    /* margin-top: 40px 0; */
+  .explore img, .news img {
+    border-bottom: 1px solid black;
   }
 
   .news {
-    /* display: inline-block; */
-    width: 250px;
+    vertical-align: top;
+    width: 300px;
+    display: inline-block;
   }
 
-  .container article {
-    /* margin: 0; */
+  .col-left, .col-right {
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
   }
+
 }
