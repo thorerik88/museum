@@ -264,7 +264,7 @@ footer {
   background-size:contain;
   font-family: 'Bubblegum Sans', cursive;
   font-weight: 300;
-  padding: 30px 0 0 20px;
+  padding: 30px 0;
 }
 
 footer .footer-logo {
@@ -287,6 +287,7 @@ footer li {
 
 .footer-address {
   text-align: center;
+  font-weight: normal;
 }
 
 .footer-address, .social {
@@ -586,10 +587,47 @@ footer li {
     width: 250px;
     height: 175px;
   }
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+}
+
+.footer-col {
+  display: inline-block;
+  width: 150px;
+  margin: 0 75px;
+  vertical-align: top;
+}
+
+.footer-col, .footer-logo {
+  margin-bottom: 30px;
+}
+
+.footer-col li:first-of-type {
+  margin-top: 0;
+}
+
+.footer-address, footer ul li {
+  text-align: left;
+  max-width: 150px;
+  margin: 20px 0;
+}
+
+.footer-col .social li {
+  margin: 20px 0;
+  width: 150px;
+}
+
 }
 
 @media screen and (min-width: 1200px) {
   .col-3 {
     margin: 75px 50px;
+  }
+
+  .footer-col {
+    margin: 0 150px;
   }
 }
