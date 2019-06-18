@@ -271,7 +271,8 @@ article {
 
 .footer-banner .col-3 a {
   background-color: #3ca74f;
-  width: 150px;
+  width: 120px;
+  text-align: center;
 }
 
 .footer-banner .col-3 img {
@@ -617,7 +618,6 @@ footer li {
 
   .footer-banner .col-3 a {
     margin: 10px 20px;
-    text-align: left;
     display: block;
   }
 
