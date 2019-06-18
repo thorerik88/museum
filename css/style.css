@@ -474,16 +474,56 @@ footer li {
     border-bottom: 1px solid black;
   }
 
-  .news {
-    vertical-align: top;
-    width: 250px;
-    display: inline-block;
+  .news h2, .explore h2 {
+    margin-top: 40px;
   }
 
   .col-left, .col-right {
-    width: 250px;
+    max-width: 250px;
     display: inline-block;
     vertical-align: top;
+  }
+
+  .news {
+    vertical-align: top;
+    width: 390px;
+    display: inline-block;
+    border-left: 1px solid black;
+  }
+
+  .col-news {
+    width: 80%;
+    display: inline-block;
+    margin: 0 auto;
+  }
+
+  .col-news article {
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 1px solid black;
+    margin: 0;
+    padding: 20px 0 20px;
+  }
+
+  .col-news article:last-of-type {
+    border: none;
+  }
+
+  .col-news img {
+    border-radius: 0;
+    width: 60%;
+  }
+
+  .col-news h3 {
+    font-size: 17px;
+  }
+
+  .col-news p {
+    font-size: 16px;
+  }
+
+  .col-news article a {
+    margin: 0;
   }
 
 }
