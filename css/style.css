@@ -406,12 +406,12 @@ footer li {
     box-shadow: 1px 1px 3px;
   }
 
-  .col-3 {
+  .container .col-3 {
     display: inline-block;
-    /* margin: 20px; */
-    width: 290px;
+    margin: 10px;
+    width: 270px;
     vertical-align: top;
-    min-height: 350px;
+    min-height: 400px;
   }
 }
 
@@ -524,6 +524,7 @@ footer li {
     background-color: white;
     text-align: center;
     margin: 0 auto;
+    padding: 50px 0;
   }
 
   .explore {
@@ -549,7 +550,7 @@ footer li {
     vertical-align: top;
     width: 390px;
     display: inline-block;
-    border-left: 1px solid black;
+    /* border-left: 1px dashed black; */
   }
 
   .col-news {
