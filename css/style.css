@@ -649,15 +649,14 @@ footer {
   margin-top: 0;
 }
 
-.footer-address, footer ul li {
-  text-align: left;
-  max-width: 150px;
-  margin: 20px 0;
+.footer-address, footer ul li{
+  text-align: center;
+  /* max-width: 100px; */
+  /* margin: 20px 0; */
 }
 
 .footer-col .social li {
-  margin: 20px 0;
-  width: 150px;
+  width: 100px;
 }
 
 }
@@ -668,6 +667,6 @@ footer {
   }
 
   .footer-col {
-    margin: 0 150px;
+    width: 250px;
   }
 }
