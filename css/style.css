@@ -186,7 +186,7 @@ a {
 /* MAIN CONTENT INDEX PAGE*/
 
 .container .crumbs {
-  text-align: center;
+  text-align: left;
   font-size: 20px;
   padding: 20px;
   font-family: 'Bubblegum Sans', cursive;
@@ -423,14 +423,23 @@ footer li {
     margin: 0 auto;
     /* display: inline-block; */
     /* margin: 10px; */
-    max-width: 750px;
+    /* max-width: 750px; */
     /* min-height: 400px; */
   }
 
-  .info-container {
+  .container .info-container {
     display: inline-block;
     width: 300px;
+    margin: 20px;
     vertical-align: top;
+  }
+
+  .info-box {
+    text-align: left;
+  }
+
+  .footer-banner h2 {
+    margin-top: 0;
   }
 }
 
@@ -610,6 +619,15 @@ footer li {
 
   .container .col-3 {
     max-width: 1000px;
+  }
+
+  .container .info-container {
+    width: 270px;
+    /* margin: 20; */
+  }
+
+  .info-box {
+
   }
 
 /* FOOTER BANNER */
