@@ -237,6 +237,11 @@ article {
   box-shadow: 1px 1px 5px black;
 }
 
+iframe {
+  height: 400px;
+  margin-top: 10px;
+}
+
 .container .col-3 {
   text-align: left;
   padding: 15px
@@ -273,6 +278,13 @@ article {
 .info-box a {
   color: blue;
   border-bottom: 1px solid blue;
+}
+
+.visit-us {
+  background-color: white;
+  padding: 10px;
+  font-family: 'Puritan', sans-serif;
+
 }
 
 /* FOOTER BANNER */
