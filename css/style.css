@@ -239,12 +239,14 @@ article {
 
 iframe {
   height: 400px;
-  margin-top: 10px;
+  min-width: 90%;
+  display: block;
+  margin: 20px auto;
 }
 
 .container .col-3 {
   text-align: left;
-  padding: 15px
+  padding-top: 15px
 }
 
 .info-box img {
@@ -450,9 +452,28 @@ footer li {
     text-align: left;
   }
 
-  .footer-banner h2 {
-    margin-top: 0;
+  .visit-container {
+    display: flex;
+    margin: 0 auto;
+    /* text-align: center; */
   }
+
+  .visit-container .col-2 {
+    flex: 50%;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .col-2 iframe {
+    /* display: block; */
+    min-width: 350px;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  /* .footer-banner h2 {
+    margin-top: 0;
+  } */
 }
 
 @media screen and (min-width: 1000px) {
@@ -638,9 +659,7 @@ footer li {
     /* margin: 20; */
   }
 
-  .info-box {
-
-  }
+  .visit-container {}
 
 /* FOOTER BANNER */
 
