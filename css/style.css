@@ -46,6 +46,8 @@ a {
   /* border-bottom: 5px solid #f17722; */
   font-family: 'Bubblegum Sans', cursive;
   box-shadow: 1px 1px 4px;
+  position: relative;
+  z-index: 1;
 }
 
 .logo {
@@ -73,6 +75,10 @@ a {
   padding: 10px;
   border: 1px solid white;
   border-radius: 10px;
+}
+
+.navbar a:visited {
+  background-color: red;
 }
 
 .navbar a:hover {
