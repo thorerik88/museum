@@ -20,26 +20,34 @@
           <li><a href="visit.html">VISIT US</a></li>
           <li><a href="exhibits.html">EXHIBITS</a></li>
           <li><a href="involved.html">GET INVOLVED</a></li>
-          <li><a href="contact.html">CONTACT US</a></li>
+          <li><a href="contact.html" class="active">CONTACT US</a></li>
         </ul>
     </nav>
 
     <div class="container">
         <div class="crumbs"><a href="index.html">Home</a> > Contact Us</div>
-        <!-- <div class="form-container"> -->
+        <div class="contact-us">
 
           <div class="contact-form">
-            <form class="" action="index.html" method="get">
-              <label for="name">Name</label>
-              <input type="text" name="name" value="">
-              <label for="email">Email</label>
-              <input type="email" name="email" value="">
-              <label for="category">Category</label>
-              <select class="category" name="category">
-                <option value="collections">Collections Department</option>
-              </select>
-              <label for="subject">Subject</label>
-              <input type="text" name="subject" value="">
+            <form class="form-container" action="" method="get">
+              <div class="col-2">
+                <label for="name">Name</label>
+                <input type="text" name="name" value="">
+                <label for="category">Category</label>
+                <select class="category" name="category">
+                  <option value="collections">Collections Department</option>
+                  <option value="exhibits_groups">Exhibits/Groups</option>
+                  <option value="internships">Internships</option>
+                  <option value="service">Service Desk</option>
+                  <option value="volunteer">Volunteering</option>
+                </select>
+              </div>
+              <div class="col-2">
+                <label for="email">Email</label>
+                <input type="email" name="email" value="">
+                <label for="subject">Subject</label>
+                <input type="text" name="subject" value="">
+              </div>
               <label for="message">Message</label>
               <textarea name="message"></textarea>
               <input type="submit" name="button" value="Submit">
@@ -48,13 +56,13 @@
 
           <div class="contact-form info">
             <h2>Address</h2>
-              <p>The Community Science Museum<br>Tøyengata 53<br>0578 Oslo</p>
+              <p><b>The Community Science Museum</b><br>Tøyengata 53<br>0578 Oslo</p>
             <h2>Email</h2>
               <p>info@science-museum.com</p>
             <h2>Phone</h2>
               <p>+47 23493500</p>
           </div>
-        <!-- </div> -->
+        </div>
     </div>
 
     <div class="footer-banner">

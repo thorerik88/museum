@@ -77,14 +77,14 @@ a {
   border-radius: 10px;
 }
 
-.navbar a:visited {
-  background-color: red;
+/* .navbar a:active {
+  border: 1px solid red;
 }
 
 .navbar a:hover {
   background-color: #6c757d;
   color: black;
-}
+} */
 
 .navbar li:last-child {
   margin-bottom: 20px;
@@ -232,7 +232,7 @@ article {
   margin: 10px;
 }
 
-.news article a, .explore article a, .footer-banner .col-3 a {
+.news article a, .explore article a, .footer-banner .col-3 a, .info-box a {
   display: inline-block;
   background-color: #f17722;
   border: 1px solid white;
@@ -252,7 +252,7 @@ iframe {
 
 .container .col-3 {
   text-align: left;
-  padding-top: 15px
+  /* padding-top: 15px */
 }
 
 .info-box img {
@@ -283,9 +283,15 @@ iframe {
   /* margin-bottom: 10px; */
 }
 
-.info-box a {
+.visit-us a {
   color: blue;
   border-bottom: 1px solid blue;
+  background-color: white;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+  width: inherit;
 }
 
 .visit-us {
@@ -502,8 +508,12 @@ footer li {
     vertical-align: top;
   }
 
-  .info-box {
+  .info-box h3, .info-box p {
     text-align: left;
+  }
+
+  .info-box a {
+    /* text-align: center; */
   }
 
   .visit-us {
@@ -531,13 +541,37 @@ footer li {
     text-align: center;
   }
 
-  /* .visit-padding {
-    padding: 1%;
-  } */
+  .contact-us {
+    display: flex;
+  }
 
-  /* .footer-banner h2 {
-    margin-top: 0;
-  } */
+  .contact-form {
+    /* display: inline-block; */
+    margin: 10px;
+    text-align: left;
+    flex: 70%;
+  }
+
+  .info {
+    /* margin: 0 auto; */
+    max-height: 300px;
+    flex: 30%;
+  }
+
+  .form-container {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .form-container .col-2 {
+    display: inline-block;
+    width: 49%;
+  }
+
+  .form-container .col-2:first-of-type {
+    margin-right: 5px;
+  }
+
 }
 
 @media screen and (min-width: 1000px) {
@@ -585,6 +619,11 @@ footer li {
     border-bottom: 1px solid white;
     background: none;
     color: white;
+  }
+
+  a.active {
+    color: black;
+    background-color: white;
   }
 
 /* BANNER */
@@ -650,7 +689,7 @@ footer li {
     background-color: white;
     text-align: center;
     margin: 0 auto;
-    padding: 50px 0;
+    padding-bottom: 50px;
   }
 
   .explore {
@@ -723,7 +762,14 @@ footer li {
     /* margin: 20; */
   }
 
-  .visit-container {}
+  .contact-us {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .contact-form {
+    margin: 10px 30px;
+  }
 
 /* FOOTER BANNER */
 
