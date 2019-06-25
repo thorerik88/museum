@@ -295,6 +295,48 @@ iframe {
 
 }
 
+.contact-form {
+  font-family: 'Puritan', sans-serif;
+  box-shadow: 1px 1px 5px;
+  background-color: white;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.contact-form label, .info h2 {
+  margin: 15px 0 5px;
+  display: block;
+  font-size: 1.3em;
+}
+
+.contact-form label:first-of-type {
+  margin-top: 0;
+}
+
+.contact-form input, .contact-form select, .contact-form textarea {
+  width: 100%;
+  border: 1px solid #f17722;
+  font-size: 20px;
+}
+
+.contact-form textarea {
+  height: 200px;
+}
+
+.contact-form input[name="button"] {
+  color: white;
+  background-color: #f17722;
+  border-radius: 3px;
+  padding: 5px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.info {
+  margin-top: 25px;
+}
+
 /* FOOTER BANNER */
 
 .footer-banner .col-3 {
