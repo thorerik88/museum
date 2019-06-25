@@ -302,12 +302,18 @@ iframe {
   padding: 20px;
   margin: 0 auto;
   max-width: 90%;
+  border-radius: 5px;
 }
 
 .contact-form label, .info h2 {
+  font-weight: bold;
   margin: 15px 0 5px;
   display: block;
   font-size: 1.3em;
+}
+
+.info h2:first-of-type {
+  margin-top: 0;
 }
 
 .contact-form label:first-of-type {
