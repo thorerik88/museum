@@ -322,7 +322,7 @@ iframe {
   margin-top: 0;
 }
 
-.contact-form label:first-of-type {
+.contact-form .col-2:first-of-type label:first-of-type {
   margin-top: 0;
 }
 
@@ -343,6 +343,7 @@ iframe {
   padding: 5px;
   width: 100%;
   margin-top: 20px;
+  box-shadow: 1px 1px 4px black;
 }
 
 .info {
@@ -471,6 +472,13 @@ footer li {
   .banner-welcome h1 {
     font-size: 2.6em;
   }
+
+  .visit-us {
+    /* margin: 0 auto;
+    width: 90%; */
+    padding-left: 20px;
+    
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -543,13 +551,14 @@ footer li {
 
   .contact-us {
     display: flex;
+    margin: 0 auto;
   }
 
   .contact-form {
     /* display: inline-block; */
     margin: 10px;
     text-align: left;
-    flex: 70%;
+    flex: 75%;
   }
 
   .info {
@@ -570,6 +579,13 @@ footer li {
 
   .form-container .col-2:first-of-type {
     margin-right: 5px;
+  }
+
+  .contact-form input, .contact-form select, .contact-form textarea {
+    border: 1px solid #f17722;
+    font-size: 18px;
+    padding: 5px;
+    font-family: 'Puritan', sans-serif;
   }
 
 }
