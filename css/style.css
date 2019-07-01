@@ -477,7 +477,7 @@ footer li {
     /* margin: 0 auto;
     width: 90%; */
     padding-left: 20px;
-    
+
   }
 }
 
@@ -488,7 +488,8 @@ footer li {
   }
 
   .banner-welcome {
-    min-height: 300px;
+    background-image: url(../img/banner_md.jpg);
+    min-height: 400px;
   }
 
   .banner-visit {
@@ -672,6 +673,10 @@ footer li {
     margin: 0;
   }
 
+  .banner-welcome {
+    background-image: url(../img/banner_lg.jpg);
+  }
+
   .banner-welcome h1 {
     width: 50%;
   }
@@ -800,8 +805,8 @@ footer li {
     font-family: 'Puritan', sans-serif;
     display: inline-block;
     width: 290px;
-    height: 350px;
-    margin: 75px 15px;
+    height: 320px;
+    margin: 100px 15px;
     background: white;
     border-radius: 0;
   }
@@ -824,7 +829,7 @@ footer li {
   .footer-banner .col-3 img {
     border-radius: 0;
     width: 250px;
-    height: 175px;
+    /* height: 175px; */
   }
 
 /* FOOTER */
