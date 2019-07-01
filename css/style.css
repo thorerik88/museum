@@ -95,21 +95,23 @@ a {
 .banner-welcome {
   border-bottom: 2px solid #3ca74f;
   position: relative;
-  background-image: url(../img/banner_sm.jpg);
+  background-image: url(../img/banner_sm2.jpg);
   background-size: cover;
   min-width: 100%;
-  min-height: 320px;
+  min-height: 360px;
   color: white;
   font-family: 'Bubblegum Sans', cursive;
   display: inline-block;
 }
 
 .banner-welcome h1 {
-  margin: 40px auto;
+  display: block;
+  margin: 30px auto 0;
   /* min-width: 100%; */
   background-color: #f17722;
+  padding: 5px;
   text-align: center;
-  font-size: 2.25;
+  font-size: 2.5em;
   text-shadow: 1px 1px black;
 }
 
@@ -121,7 +123,7 @@ a {
   padding: 7px;
   border: 2px solid white;
   border-radius: 5px;
-  margin: 0 auto;
+  margin: 30px auto;
   text-align: center;
   box-shadow: 1px 1px 3px black;
 }
@@ -453,8 +455,9 @@ footer li {
 }
 
 @media screen and (min-width: 500px) {
+
   .banner-welcome {
-    background-image: url(../img/banner_md.jpg);
+    background-image: url(../img/banner_md3.jpg);
   }
 
   .banner-welcome span {
@@ -481,6 +484,18 @@ footer li {
   }
 }
 
+@media screen and (min-width: 650px) {
+  .banner-welcome {
+    background-image: url(../img/banner_md2.jpg);
+  }
+
+  .banner-welcome h1 {
+    display: block;
+    text-align: center;
+  }
+
+}
+
 @media screen and (min-width: 768px) {
 
   .container {
@@ -488,7 +503,7 @@ footer li {
   }
 
   .banner-welcome {
-    background-image: url(../img/banner_md.jpg);
+    background-image: url(../img/banner_md2.jpg);
     min-height: 400px;
   }
 
@@ -674,16 +689,21 @@ footer li {
   }
 
   .banner-welcome {
-    background-image: url(../img/banner_lg.jpg);
+    background-image: url(../img/banner_lg2.jpg);
   }
 
   .banner-welcome h1 {
-    width: 50%;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 50px;
+    padding: 0px;
+    /* width: 50%; */
   }
 
   .banner-welcome a {
     width: 250px;
     margin-top: 150px;
+    font-size: 28px;
   }
 
   .banner-welcome span {
@@ -866,6 +886,11 @@ footer {
 }
 
 @media screen and (min-width: 1200px) {
+
+  .banner-welcome {
+    background-image: url(../img/banner_hg.jpg);
+  }
+
   .footer-banner .col-3 {
     margin: 75px 50px;
   }
