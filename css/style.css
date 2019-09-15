@@ -36,6 +36,10 @@ a {
   color: white;
 }
 
+a:hover {
+  opacity: .7;
+}
+
 .bubblegum {
   font-family: 'Bubblegum Sans', cursive;
 }
