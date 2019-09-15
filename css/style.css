@@ -1,11 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Bubblegum+Sans|Puritan:400,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bubblegum+Sans|Puritan|Roboto:400,700,700i&display=swap');
 /* FONTS
 
 bubblegum:
 font-family: 'Bubblegum Sans', cursive;
 
 puritan:
-font-family: 'Puritan', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+roboto:
+font-family: 'Roboto", sans-serif;
+
 */
 
 /* COLORS
@@ -142,7 +146,7 @@ a {
 }
 
 .banner-visit {
-  font-family: 'Puritan', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
   width: 100%;
 }
@@ -205,7 +209,7 @@ a {
 }
 
 .news article, .explore article, .container .info-container,.footer-banner .col-3 {
-  font-family: 'Puritan', sans-serif;
+  font-family: 'Roboto', sans-serif;
   max-width: 90%;
   margin: 0 auto 30px;
   background-color: white;
@@ -299,12 +303,12 @@ iframe {
 .visit-us {
   background-color: white;
   padding: 10px;
-  font-family: 'Puritan', sans-serif;
+  font-family: 'Roboto', sans-serif;
 
 }
 
 .contact-form {
-  font-family: 'Puritan', sans-serif;
+  font-family: 'Roboto', sans-serif;
   box-shadow: 1px 1px 5px;
   background-color: white;
   padding: 20px;
@@ -373,7 +377,8 @@ iframe {
 /* FOOTER */
 
 footer {
-  background-image: url(../img/background_footer_sm.png);
+  background-color: black;
+  border-top: 5px solid #f17722;
   background-size:contain;
   font-family: 'Bubblegum Sans', cursive;
   font-weight: 300;
@@ -450,7 +455,7 @@ footer li {
 
 .copy {
   color: white;
-  font-family: 'Puritan', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
 }
 
@@ -601,7 +606,7 @@ footer li {
     border: 1px solid #f17722;
     font-size: 18px;
     padding: 5px;
-    font-family: 'Puritan', sans-serif;
+    font-family: 'Roboto', sans-serif;
   }
 
 }
@@ -822,7 +827,7 @@ footer li {
   }
 
   .footer-banner .col-3 {
-    font-family: 'Puritan', sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: inline-block;
     width: 290px;
     height: 320px;
